@@ -1,0 +1,15 @@
+.btn-option {
+  width: 33%;
+  height: 80%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  transition: .3s;
+}
+
+.btn-option:hover {
+  transform: scale(1.5);
+}

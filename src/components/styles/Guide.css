@@ -1,0 +1,12 @@
+.box-guide {
+  width: 90%;
+  height: 70px;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  background-color: rgb(0, 102, 255);
+  border-radius: 20px;
+}
