@@ -3,7 +3,7 @@ import './styles/Title.css'
 
 const Title = () => {
   return <div className='box-title'>
-    <h1>Piedra, Papel o Tijera</h1>
+    <h1>Rock, Paper or Scissors</h1>
   </div>
 }
 

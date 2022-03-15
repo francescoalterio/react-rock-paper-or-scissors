@@ -4,9 +4,9 @@ import './styles/Options.css'
 
 const Options = ({gameState, setGameState}) => {
   return <div className='box-options'>
-    <Option value='Piedra' gameState={gameState} setGameState={setGameState} />
-    <Option value='Papel' gameState={gameState} setGameState={setGameState} />
-    <Option value='Tijera' gameState={gameState} setGameState={setGameState} />
+    <Option value='Rock' gameState={gameState} setGameState={setGameState} />
+    <Option value='Paper' gameState={gameState} setGameState={setGameState} />
+    <Option value='Scissors' gameState={gameState} setGameState={setGameState} />
   </div>
 }
 

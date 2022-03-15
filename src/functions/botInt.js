@@ -14,13 +14,13 @@ const botInt = (gameState, setGameState) => {
     setTimeout(() => {
 
       if(number < 0.33){
-        setGameState({...gameState, botOption: 'Piedra'})
+        setGameState({...gameState, botOption: 'Rock'})
       } 
       else if(number < 0.66) {
-        setGameState({...gameState, botOption: 'Papel'})
+        setGameState({...gameState, botOption: 'Paper'})
       }
       else {
-        setGameState({...gameState, botOption: 'Tijera'})
+        setGameState({...gameState, botOption: 'Scissors'})
       }
     }, 3000)
 
